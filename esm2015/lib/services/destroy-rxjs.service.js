@@ -1,0 +1,12 @@
+import { Injectable } from '@angular/core';
+import { Subject } from 'rxjs';
+export class DestroyRxjsService extends Subject {
+    ngOnDestroy() {
+        this.next();
+        this.complete();
+    }
+}
+DestroyRxjsService.decorators = [
+    { type: Injectable }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZGVzdHJveS1yeGpzLnNlcnZpY2UuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi9wcm9qZWN0cy9vZi9zcmMvbGliL3NlcnZpY2VzL2Rlc3Ryb3ktcnhqcy5zZXJ2aWNlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE9BQU8sRUFBRSxVQUFVLEVBQWEsTUFBTSxlQUFlLENBQUM7QUFDdEQsT0FBTyxFQUFFLE9BQU8sRUFBRSxNQUFNLE1BQU0sQ0FBQztBQUcvQixNQUFNLE9BQU8sa0JBQW1CLFNBQVEsT0FBYTtJQUNuRCxXQUFXO1FBQ1QsSUFBSSxDQUFDLElBQUksRUFBRSxDQUFDO1FBQ1osSUFBSSxDQUFDLFFBQVEsRUFBRSxDQUFDO0lBQ2xCLENBQUM7OztZQUxGLFVBQVUiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBJbmplY3RhYmxlLCBPbkRlc3Ryb3kgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcclxuaW1wb3J0IHsgU3ViamVjdCB9IGZyb20gJ3J4anMnO1xyXG5cclxuQEluamVjdGFibGUoKVxyXG5leHBvcnQgY2xhc3MgRGVzdHJveVJ4anNTZXJ2aWNlIGV4dGVuZHMgU3ViamVjdDx2b2lkPiBpbXBsZW1lbnRzIE9uRGVzdHJveSB7XHJcbiAgbmdPbkRlc3Ryb3koKTogdm9pZCB7XHJcbiAgICB0aGlzLm5leHQoKTtcclxuICAgIHRoaXMuY29tcGxldGUoKTtcclxuICB9XHJcblxyXG59XHJcbiJdfQ==

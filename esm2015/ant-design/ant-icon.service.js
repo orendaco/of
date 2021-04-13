@@ -1,0 +1,14 @@
+import * as AllIcons from '@ant-design/icons-angular/icons';
+export class AntIconService {
+    constructor() {
+        this.antDesignIcons = AllIcons;
+    }
+    icons() {
+        const ret = [];
+        for (const key of Object.keys(this.antDesignIcons)) {
+            ret.push(this.antDesignIcons[key]);
+        }
+        return ret;
+    }
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYW50LWljb24uc2VydmljZS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL3Byb2plY3RzL29mL3NyYy9hbnQtZGVzaWduL2FudC1pY29uLnNlcnZpY2UudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxLQUFLLFFBQVEsTUFBTSxpQ0FBaUMsQ0FBQztBQUc1RCxNQUFNLE9BQU8sY0FBYztJQUEzQjtRQUNVLG1CQUFjLEdBQUcsUUFFeEIsQ0FBQztJQVNKLENBQUM7SUFQQyxLQUFLO1FBQ0gsTUFBTSxHQUFHLEdBQUcsRUFBRSxDQUFDO1FBQ2YsS0FBSyxNQUFNLEdBQUcsSUFBSSxNQUFNLENBQUMsSUFBSSxDQUFDLElBQUksQ0FBQyxjQUFjLENBQUMsRUFBRTtZQUNsRCxHQUFHLENBQUMsSUFBSSxDQUFDLElBQUksQ0FBQyxjQUFjLENBQUMsR0FBRyxDQUFDLENBQUMsQ0FBQztTQUNwQztRQUNELE9BQU8sR0FBRyxDQUFDO0lBQ2IsQ0FBQztDQUNGIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICogYXMgQWxsSWNvbnMgZnJvbSAnQGFudC1kZXNpZ24vaWNvbnMtYW5ndWxhci9pY29ucyc7XHJcbmltcG9ydCB7IEljb25EZWZpbml0aW9uIH0gZnJvbSAnQGFudC1kZXNpZ24vaWNvbnMtYW5ndWxhcic7XHJcblxyXG5leHBvcnQgY2xhc3MgQW50SWNvblNlcnZpY2Uge1xyXG4gIHByaXZhdGUgYW50RGVzaWduSWNvbnMgPSBBbGxJY29ucyBhcyB7XHJcbiAgICBba2V5OiBzdHJpbmddOiBJY29uRGVmaW5pdGlvbjtcclxuICB9O1xyXG5cclxuICBpY29ucygpIHtcclxuICAgIGNvbnN0IHJldCA9IFtdO1xyXG4gICAgZm9yIChjb25zdCBrZXkgb2YgT2JqZWN0LmtleXModGhpcy5hbnREZXNpZ25JY29ucykpIHtcclxuICAgICAgcmV0LnB1c2godGhpcy5hbnREZXNpZ25JY29uc1trZXldKTtcclxuICAgIH1cclxuICAgIHJldHVybiByZXQ7XHJcbiAgfVxyXG59XHJcbiJdfQ==

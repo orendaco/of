@@ -1,0 +1,11 @@
+{
+  "main": "../bundles/orendaco-of-config.umd.js",
+  "module": "../fesm2015/orendaco-of-config.js",
+  "es2015": "../fesm2015/orendaco-of-config.js",
+  "esm2015": "../esm2015/config/orendaco-of-config.js",
+  "fesm2015": "../fesm2015/orendaco-of-config.js",
+  "typings": "orendaco-of-config.d.ts",
+  "metadata": "orendaco-of-config.metadata.json",
+  "sideEffects": false,
+  "name": "@orendaco/of/config"
+}

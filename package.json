@@ -1,0 +1,35 @@
+{
+  "name": "@orendaco/of",
+  "version": "1.0.1",
+  "peerDependencies": {
+    "@angular/common": ">=9.1.11",
+    "@angular/core": ">=9.1.11",
+    "date-fns": ">=2.16.1",
+    "jquery": ">=3.5.1",
+    "lodash": ">=4.17.20",
+    "moment": ">=2.27.0",
+    "ng-zorro-antd": ">=9.3.0",
+    "@ant-design/icons-angular": ">=9.0.1",
+    "ng2-currency-mask": ">=9.0.2",
+    "angular2-text-mask": ">=9.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0",
+    "date-fns": "^2.16.1",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.20",
+    "moment": "^2.27.0",
+    "ng-zorro-antd": "^9.3.0",
+    "@ant-design/icons-angular": "^9.0.1",
+    "ng2-currency-mask": "^9.0.2",
+    "angular2-text-mask": "^9.0.0"
+  },
+  "main": "bundles/orendaco-of.umd.js",
+  "module": "fesm2015/orendaco-of.js",
+  "es2015": "fesm2015/orendaco-of.js",
+  "esm2015": "esm2015/orendaco-of.js",
+  "fesm2015": "fesm2015/orendaco-of.js",
+  "typings": "orendaco-of.d.ts",
+  "metadata": "orendaco-of.metadata.json",
+  "sideEffects": false
+}

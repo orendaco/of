@@ -1,0 +1,14 @@
+import { NgModule } from '@angular/core';
+import { OF_ROUTE_PROVIDERS } from './providers/route.provider';
+export class OfConfigModule {
+    static forRoot() {
+        return {
+            ngModule: OfConfigModule,
+            providers: [OF_ROUTE_PROVIDERS],
+        };
+    }
+}
+OfConfigModule.decorators = [
+    { type: NgModule }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoib2YtY29uZmlnLm1vZHVsZS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL3Byb2plY3RzL29mL2NvbmZpZy9zcmMvb2YtY29uZmlnLm1vZHVsZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxPQUFPLEVBQXVCLFFBQVEsRUFBRSxNQUFNLGVBQWUsQ0FBQztBQUM5RCxPQUFPLEVBQUUsa0JBQWtCLEVBQUUsTUFBTSw0QkFBNEIsQ0FBQztBQUdoRSxNQUFNLE9BQU8sY0FBYztJQUN6QixNQUFNLENBQUMsT0FBTztRQUNaLE9BQU87WUFDTCxRQUFRLEVBQUUsY0FBYztZQUN4QixTQUFTLEVBQUUsQ0FBQyxrQkFBa0IsQ0FBQztTQUNoQyxDQUFDO0lBQ0osQ0FBQzs7O1lBUEYsUUFBUSIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IE1vZHVsZVdpdGhQcm92aWRlcnMsIE5nTW9kdWxlIH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5pbXBvcnQgeyBPRl9ST1VURV9QUk9WSURFUlMgfSBmcm9tICcuL3Byb3ZpZGVycy9yb3V0ZS5wcm92aWRlcic7XG5cbkBOZ01vZHVsZSgpXG5leHBvcnQgY2xhc3MgT2ZDb25maWdNb2R1bGUge1xuICBzdGF0aWMgZm9yUm9vdCgpOiBNb2R1bGVXaXRoUHJvdmlkZXJzPE9mQ29uZmlnTW9kdWxlPiB7XG4gICAgcmV0dXJuIHtcbiAgICAgIG5nTW9kdWxlOiBPZkNvbmZpZ01vZHVsZSxcbiAgICAgIHByb3ZpZGVyczogW09GX1JPVVRFX1BST1ZJREVSU10sXG4gICAgfTtcbiAgfVxufVxuIl19

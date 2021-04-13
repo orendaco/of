@@ -1,0 +1,10 @@
+import { OfControlModel } from '../../models';
+export class OfTextModel extends OfControlModel {
+    constructor(config) {
+        super(config);
+        this.type = 'text';
+        this.maxLength = (config === null || config === void 0 ? void 0 : config.maxLength) || null;
+        this.minLength = (config === null || config === void 0 ? void 0 : config.minLength) || null;
+    }
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoib2YtdGV4dC5tb2RlbC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uLy4uL3Byb2plY3RzL29mL3NyYy9saWIvY29tcG9uZW50cy9vZi10ZXh0L29mLXRleHQubW9kZWwudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLGNBQWMsRUFBd0IsTUFBTSxjQUFjLENBQUM7QUFTcEUsTUFBTSxPQUFPLFdBQVksU0FBUSxjQUFjO0lBSTdDLFlBQVksTUFBMEI7UUFDcEMsS0FBSyxDQUFDLE1BQU0sQ0FBQyxDQUFDO1FBQ2QsSUFBSSxDQUFDLElBQUksR0FBRyxNQUFNLENBQUM7UUFDbkIsSUFBSSxDQUFDLFNBQVMsR0FBRyxDQUFBLE1BQU0sYUFBTixNQUFNLHVCQUFOLE1BQU0sQ0FBRSxTQUFTLEtBQUksSUFBSSxDQUFDO1FBQzNDLElBQUksQ0FBQyxTQUFTLEdBQUcsQ0FBQSxNQUFNLGFBQU4sTUFBTSx1QkFBTixNQUFNLENBQUUsU0FBUyxLQUFJLElBQUksQ0FBQztJQUM3QyxDQUFDO0NBQ0YiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBPZkNvbnRyb2xNb2RlbCwgT2ZDb250cm9sTW9kZWxDb25maWcgfSBmcm9tICcuLi8uLi9tb2RlbHMnO1xyXG5cclxuXHJcbmV4cG9ydCBpbnRlcmZhY2UgT3JkVGV4dE1vZGVsQ29uZmlnIGV4dGVuZHMgT2ZDb250cm9sTW9kZWxDb25maWcge1xyXG4gIG1heExlbmd0aD86IG51bWJlcjtcclxuICBtaW5MZW5ndGg/OiBudW1iZXI7XHJcbn1cclxuXHJcblxyXG5leHBvcnQgY2xhc3MgT2ZUZXh0TW9kZWwgZXh0ZW5kcyBPZkNvbnRyb2xNb2RlbCB7XHJcbiAgbWF4TGVuZ3RoPzogbnVtYmVyIHwgbnVsbDtcclxuICBtaW5MZW5ndGg/OiBudW1iZXIgfCBudWxsO1xyXG5cclxuICBjb25zdHJ1Y3Rvcihjb25maWc6IE9yZFRleHRNb2RlbENvbmZpZykge1xyXG4gICAgc3VwZXIoY29uZmlnKTtcclxuICAgIHRoaXMudHlwZSA9ICd0ZXh0JztcclxuICAgIHRoaXMubWF4TGVuZ3RoID0gY29uZmlnPy5tYXhMZW5ndGggfHwgbnVsbDtcclxuICAgIHRoaXMubWluTGVuZ3RoID0gY29uZmlnPy5taW5MZW5ndGggfHwgbnVsbDtcclxuICB9XHJcbn1cclxuIl19
